@@ -10,9 +10,13 @@ export default function Home() {
             <div className="w-full md:max-w-4xl lg:max-w-5xl xl:max-w-6xl  2xl:max-w-7xl px-4 sm:px-6 py-12">
                 <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg shadow-md py-8 px-6">
                     <Hero />
+                    <div className="my-8 border-t-2 border-gray-300 dark:border-gray-600 rounded-sm" />
                     <Experience />
+                    <div className="my-8 border-t-2 border-gray-300 dark:border-gray-600 rounded-sm" />
                     <Skills />
+                    <div className="my-8 border-t-2 border-gray-300 dark:border-gray-600 rounded-sm" />
                     <Education />
+                    <div className="my-8 border-t-2 border-gray-300 dark:border-gray-600 rounded-sm" />
                     <Languages />
                 </div>
             </div>
