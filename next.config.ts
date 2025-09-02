@@ -2,10 +2,10 @@
 const nextConfig = {
     output: 'export',
     trailingSlash: true,
+    basePath: '/CV',
     images: {
-        unoptimized: true
+        unoptimized: true,
     },
-    assetPrefix: process.env.NODE_ENV === 'production' ? '/cv/' : ''
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

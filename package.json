@@ -2,13 +2,12 @@
     "name": "cv",
     "version": "0.1.0",
     "private": true,
-    "homepage": "https://HMMdeveloper.github.io/cv",
     "scripts": {
-        "dev": "next dev --turbopack",
-        "build": "next build --turbopack",
+        "dev": "next dev",
+        "build": "next build",
         "start": "next start",
-        "lint": "eslint",
-        "deploy": "next build && gh-pages -d out"
+        "predeploy": "touch out/.nojekyll",
+        "deploy": "gh-pages -d out --dotfiles"
     },
     "dependencies": {
         "next": "15.5.2",

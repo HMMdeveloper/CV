@@ -17,15 +17,7 @@ export const Hero = () => {
                 <div className="absolute left-0 top-0 bottom-0 w-1 bg-blue-500 rounded-l-lg"></div>
 
                 <p className="text-gray-700 dark:text-gray-300 leading-relaxed text-sm md:text-base pl-4">
-                    A proactive and detail-oriented Frontend Developer specializing in
-                    Web3 platforms and cryptocurrency integrations. Proven track record of
-                    delivering high-quality web applications with a focus on secure wallet
-                    authentication and blockchain interactions. Known for quick learning
-                    abilities and efficient problem-solving skills. Demonstrates
-                    exceptional responsibility in development processes and strong
-                    expertise in modern frontend technologies. Consistently receives
-                    recognition for the ability to understand and implement new tools
-                    rapidly while maintaining high code quality and team collaboration.
+                    loren ipsum
                 </p>
             </div>
 
